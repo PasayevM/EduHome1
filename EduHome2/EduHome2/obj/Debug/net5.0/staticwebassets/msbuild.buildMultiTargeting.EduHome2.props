@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EduHome2.props" />
+</Project>
