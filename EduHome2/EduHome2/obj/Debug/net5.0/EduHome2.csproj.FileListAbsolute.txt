@@ -164,3 +164,10 @@ C:\Users\user\OneDrive\Masaüstü\C# B_C\EduHome2\EduHome2\obj\Debug\net5.0\Razo
 C:\Users\user\OneDrive\Masaüstü\C# B_C\EduHome2\EduHome2\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\user\OneDrive\Masaüstü\C# B_C\EduHome2\EduHome2\obj\Debug\net5.0\Razor\Areas\Admin\Views\Services\Detail.cshtml.g.cs
 C:\Users\user\OneDrive\Masaüstü\C# B_C\EduHome2\EduHome2\obj\Debug\net5.0\Razor\Areas\Admin\Views\Services\Update.cshtml.g.cs
+C:\Users\user\OneDrive\Masaüstü\C# B_C\EduHome2\EduHome2\obj\Debug\net5.0\Razor\Areas\Admin\Views\Sliders\Index.cshtml.g.cs
+C:\Users\user\OneDrive\Masaüstü\C# B_C\EduHome2\EduHome2\obj\Debug\net5.0\Razor\Areas\Admin\Views\Sliders\Create.cshtml.g.cs
+C:\Users\user\OneDrive\Masaüstü\C# B_C\EduHome2\EduHome2\obj\Debug\net5.0\Razor\Areas\Admin\Views\Sliders\Detail.cshtml.g.cs
+C:\Users\user\OneDrive\Masaüstü\C# B_C\EduHome2\EduHome2\obj\Debug\net5.0\Razor\Areas\Admin\Views\Sliders\Update.cshtml.g.cs
+C:\Users\user\OneDrive\Masaüstü\C# B_C\EduHome2\EduHome2\obj\Debug\net5.0\Razor\Areas\Admin\Views\FeedBacks\Index.cshtml.g.cs
+C:\Users\user\OneDrive\Masaüstü\C# B_C\EduHome2\EduHome2\obj\Debug\net5.0\Razor\Areas\Admin\Views\FeedBacks\Create.cshtml.g.cs
+C:\Users\user\OneDrive\Masaüstü\C# B_C\EduHome2\EduHome2\obj\Debug\net5.0\Razor\Areas\Admin\Views\FeedBacks\Update.cshtml.g.cs

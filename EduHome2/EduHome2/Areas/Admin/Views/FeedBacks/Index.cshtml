@@ -1,0 +1,81 @@
+﻿
+@model List<FeedBack>
+
+
+<div class="row">
+    <div class="col-12">
+              <!-- Basic Bootstrap Table -->
+              <div class="card">
+
+                <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="card-header">FeedBacks</h5>
+                   <div style="margin-right:5px">
+                       <a asp-action="Create" class="btn btn-primary text-white rounded-pill">Create</a>
+                   </div>
+                </div>
+
+                <div class="table-responsive text-nowrap">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Image</th>
+                        <th>FullName</th>
+                        <th>Position</th>
+                        
+
+                        <th>Status</th>
+
+                        <th style="text-align:right">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                        @foreach (FeedBack item in Model)
+                        {
+                              <tr>
+                                     <td><img style="width:200px;height:100px;object-fit:cover" src="~/img/testimonial/@item.Image"/></td>
+                                     <td>@item.FullName</td>
+                                     <td>@item.Position</td>
+
+
+                                 <td>
+                                    @if (item.IsDeactive)
+                                    {
+                                            <div class="text-danger">Passive</div>
+                                    }
+                                    else
+                                    {
+                                            <div class="text-success">Active</div>
+                                    }
+                                      </td>
+                               <td>
+                                 <div class="d-flex justify-content-end">  
+                                          <div style="margin-right:5px">
+                                           <a  asp-action="Detail" asp-route-id="@item.Id" class="btn btn-warning text-white rounded-pill">Detail</a>
+                                          </div>
+                                          <div style="margin-right:5px">
+                                           <a  asp-action="Update" asp-route-id="@item.Id" class="btn btn-info text-white rounded-pill">Update</a>
+                                          </div>
+                                        @if (item.IsDeactive)
+                                        {
+                                             <div style="margin-right:5px">
+                                              <a  asp-action="Activity" asp-route-id="@item.Id" class="btn btn-success text-white rounded-pill">Activate</a> 
+                                             </div>
+                                        }
+                                        else
+                                        {
+                                            <div style="margin-right:5px">
+                                                <a  asp-action="Activity" asp-route-id="@item.Id" class="btn btn-danger text-white rounded-pill">DeActivate</a> 
+                                            </div>
+                                        }
+
+                                 </div>
+                               </td>
+                                           </tr>
+                        }
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!--/ Basic Bootstrap Table -->
+    </div>
+</div>

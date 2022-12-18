@@ -36,12 +36,16 @@ namespace EduHome2.Areas.Admin.Controllers
                 return View();
             }
 
-                bool isExist= await _db.Services.AnyAsync(x=>x.Title==service.Title);
-                if (isExist) 
-                    {
-                        ModelState.AddModelError("Title", "This service is already exist");
-                          return View();
-                    }
+            #region IsExist (Eyni Adda olan Error)
+
+            bool isExist = await _db.Services.AnyAsync(x => x.Title == service.Title);
+            if (isExist)
+            {
+                ModelState.AddModelError("Title", "This service is already exist");
+                return View();
+            }
+
+            #endregion
 
             await _db.Services.AddAsync(service);
             await _db.SaveChangesAsync();

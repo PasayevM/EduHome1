@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\OneDrive\\Masaüstü\\C# B_C\\EduHome2\\EduHome2\\EduHome2.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Masaüstü\\Edu Home\\EduHome\\EduHome2\\EduHome2\\EduHome2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\OneDrive\\Masaüstü\\C# B_C\\EduHome2\\EduHome2\\EduHome2.csproj": {
+    "C:\\Users\\user\\OneDrive\\Masaüstü\\Edu Home\\EduHome\\EduHome2\\EduHome2\\EduHome2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\C# B_C\\EduHome2\\EduHome2\\EduHome2.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\Edu Home\\EduHome\\EduHome2\\EduHome2\\EduHome2.csproj",
         "projectName": "EduHome2",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\C# B_C\\EduHome2\\EduHome2\\EduHome2.csproj",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\Edu Home\\EduHome\\EduHome2\\EduHome2\\EduHome2.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\C# B_C\\EduHome2\\EduHome2\\obj\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\Edu Home\\EduHome\\EduHome2\\EduHome2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.2.22477.23\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
